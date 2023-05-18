@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/vite.svg" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Vite App</title>
+	</head>
+	<body>
+		<main class="container pt-5">
+			<div class="form-floating">
+				<select class="form-control" name="categoria" id="categoria">
+					<option value="0">Seleccione una categoría</option>
+				</select>
+				<label for="categoria">Seleccione una categoría</label>
+			</div>
+
+			<section class="py-5">
+				<div class="row row-cols-1 row-cols-md-3 g-4" id="comidas"></div>
+			</section>
+		</main>
+
+		<script src="./src/assets/js/bootstrap.bundle.min.js"></script>
+		<script type="module" src="./src/main.js"></script>
+	</body>
+</html>
